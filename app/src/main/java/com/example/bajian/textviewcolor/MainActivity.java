@@ -15,8 +15,18 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView tv=(TextView)findViewById(R.id.tv);
+        TextView tv2=(TextView)findViewById(R.id.tv2);
         tv.setText(Html.fromHtml("看我<font color='#ff0000'>颜色</font>"));
         System.out.println(Html.fromHtml("看我<font color='#ff0000'>颜色</font>"));
+        tv2.setText(
+                Html.fromHtml(
+                        getResources().getString(
+                                R.string.string_today_duein_progress,
+                                "12",
+                                "12",
+                                "12",
+                                "100")));
+
     }
 
     @Override

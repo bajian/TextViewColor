@@ -3,4 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="string_today_duein_progress"><Data><![CDATA[<font color="#a3a3a3">第%1$s笔还款/共%2$s笔</font>第<font color="#ff0000">%3$s</font>笔还款/共<font color="#ff0000">%4$s笔</font>]]></Data></string>
+
 </resources>
